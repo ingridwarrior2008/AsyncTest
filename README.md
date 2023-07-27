@@ -11,9 +11,10 @@ Unreal Engine 5.2.1
 ## ListenerActor
 
 - Implements the async node in the blueprint to check when the target actor value changes
-![Screenshot 2023-07-27 042822](https://github.com/ingridwarrior2008/AsyncTest/assets/1762283/2352322a-fabf-4ce7-a382-3b2f06e94b64)
+![Screenshot 2023-07-27 042822](https://github.com/ingridwarrior2008/AsyncTest/assets/1762283/54631142-10e3-458d-959d-c850e1c47cd9)
 
 ## DefaultPawn
 - This class will Initialize player input and capture the pressed key to change the target actor variable.
-![Screenshot 2023-07-27 043152](https://github.com/ingridwarrior2008/AsyncTest/assets/1762283/10237094-7dbb-4ebf-ae1b-48a9c69a0120)
-![Screenshot 2023-07-27 043408](https://github.com/ingridwarrior2008/AsyncTest/assets/1762283/e16da500-72cf-4caf-995c-76075d2b0662)
+![Screenshot 2023-07-27 043152](https://github.com/ingridwarrior2008/AsyncTest/assets/1762283/64a4d206-6827-473f-9f05-03b03fbf1c1d)
+
+![Screenshot 2023-07-27 043408](https://github.com/ingridwarrior2008/AsyncTest/assets/1762283/61449baf-4005-4c4c-9dc0-dfe5ade19043)
