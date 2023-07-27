@@ -24,8 +24,7 @@ public:
 
 	UFUNCTION(BlueprintCallable, meta=( BlueprintInternalUseOnly="true" ))
 	static UAsyncCaptureValueChange* CaptureValueChangeAsync(const TScriptInterface<ICaptureValueInterface>& CaptureValueInterface);
-
-
+	
 	UPROPERTY(BlueprintAssignable)
 	FOnCaptureValueChangedSignature OnCompleteDelegate;
 

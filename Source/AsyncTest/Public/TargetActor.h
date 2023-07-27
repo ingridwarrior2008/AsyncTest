@@ -22,14 +22,12 @@ protected:
 	virtual void BeginPlay() override;
 
 private:
-
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "TargetActor", meta = (AllowPrivateAccess = "true"))
 	TObjectPtr<UStaticMeshComponent> Mesh;
 
 #pragma region ICaptureValueInterface
 
 public:
-	
 	UFUNCTION(BlueprintCallable, BlueprintAuthorityOnly)
 	void SetNewAsyncDestroyValue(const bool bNewValue);
 	
@@ -40,7 +38,6 @@ public:
 	TScriptInterface<ICaptureValueInterface> GetCaptureValueInterface() const { return CaptureValueInterface; }
 
 protected:
-
 	UPROPERTY(Transient, ReplicatedUsing = OnRep_OnAsyncDestroy)
 	bool bOnAsyncDestroy;
 
@@ -48,7 +45,6 @@ protected:
 	FOnValueChangedSignature OnValueChangedDelegate;
 
 private:
-
 	UPROPERTY(transient)
 	TScriptInterface<ICaptureValueInterface> CaptureValueInterface;
 
